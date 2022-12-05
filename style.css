@@ -156,6 +156,16 @@ a {
   height: 370px;
   margin-top: 120px;
 }
+.section-two-content-social-block {
+  display: none;
+  background-image: url(./image/Group\ 1\ \(Traced\).png);
+  background-repeat: no-repeat;
+  font-size: 40px;
+  height: 60px;
+  text-align: center;
+  Line-height: 58px;
+  color: #999CAC;
+}
 .section-two-content-number {
   text-align: center;
   padding: 70px;
@@ -464,16 +474,18 @@ a {
   }
   .links {
     grid-template-columns: 120px 83px 125px 107px;
-  
-  font-size: 20px;
-  line-height: 35px;
-  margin-left: 150px;
+    font-size: 20px;
+    line-height: 35px;
+    margin-left: 150px;
+  }
+  .section-two-content-social {
+    display: none;
   }
   .block-for-image-one {
     width: 260px;
     height: 520px;
     background-image: url(image/1440/block\ 3-1.png);
-    margin-right: 48px;
+    margin-right: 15px;
   }
   .block-for-image-two {
     width: 260px;
@@ -500,14 +512,12 @@ a {
     display: block;
     text-align: center;
   }
-  
   .button-android,
   .button-iOS {
     width: 546px;
     height: 60px;
     font-size: 24px;
     margin-top: 10px;
-  
   }
   .lightning {
     display: none;
@@ -526,11 +536,10 @@ a {
     display: flex;
     flex-direction: row-reverse;
   }
-  .section-two-content-social {
-    background-image: url(./image/Group\ 1\ \(Traced\).png);
-    background-repeat: no-repeat;
-    
-    
+  .section-two-content-social-block {
+    display: block;
+    background-image: url(./image/768/Group\ 1\ \(Traced\).png);
+    background-repeat: no-repeat; 
   }
   .block-for-image-two {
     display: none;
@@ -538,6 +547,10 @@ a {
   .section-as-iframe-video {
     width: 725px;
     height: 640px;
+  }
+  .about-as-heading,
+  .section-as-heading {
+    font-size: 40px;
   }
   .what-is-already-there-grid {
     grid-template-columns: 296px 296px;
@@ -555,6 +568,20 @@ a {
     flex-direction: column;
   }
   .block-seven-image {
-    margin: -140px 0 80px 0;
+    margin: -225px 0 166px 0;
   }
+  .block-footer {
+    display: block;
+   margin-left: 90px;
+  }
+  .block-footer-one {
+    padding-bottom: 20px;
+  }
+  .block-eight-link {
+    width: 546px;
+    height: 60px;
+    padding: 0;
+
+  }
+  
 }
